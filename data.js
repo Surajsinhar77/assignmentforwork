@@ -99,8 +99,9 @@ export const cardData = [
       image: "https://images.unsplash.com/photo-1601233743255-1e9a5a29fbf9",
       category: "future", // Added category field to filter by component
     },
+    
     {
-      id: 8,
+      id: 9,
       title: "Next-Gen Stocks",
       subheading: "Future of AI and Automation",
       bulletPoints: [
@@ -108,10 +109,44 @@ export const cardData = [
         "Tech stocks leading the charge",
         "Automation impacting global markets"
       ],
+      percentage:'30%',
+      progress: "90",
+      badge: "Thrill",
+      badges:"Thrill",
+      steps: [
+        { label: "Planning", completed: true },
+        { label: "Research", completed: true },
+        { label: "Execution", completed: false },
+        { label: "Achievement", completed: false },
+      ],
       textPad:"Investment Status: Thrill  Investment",
       icon: <TrendingUp className="text-green-400" />,
       image: "https://images.unsplash.com/photo-1601233743255-1e9a5a29fbf9",
-      category: "future", // Added category field to filter by component
+      category: "advance", // Added category field to filter by component
+    },
+    {
+      id: 10,
+      title: "Next-Gen Stocks",
+      subheading: "Future of AI and Automation",
+      bulletPoints: [
+        "Predicted 700% growth by 2030",
+        "Tech stocks leading the charge",
+        "Automation impacting global markets"
+      ],
+      percentage:'60%',
+      progress: "40",
+      badge: "Thrill",
+      badges:"Thrill",
+      steps: [
+        { label: "Planning", completed: true },
+        { label: "Research", completed: true },
+        { label: "Execution", completed: false },
+        { label: "Achievement", completed: false },
+      ],
+      textPad:"Investment Status: Thrill  Investment",
+      icon: <Sparkles className="text-green-400" />,
+      image: "https://images.unsplash.com/photo-1601233743255-1e9a5a29fbf9",
+      category: "advance", // Added category field to filter by component
     },
   ];
 
