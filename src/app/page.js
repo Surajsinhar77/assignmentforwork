@@ -17,7 +17,7 @@ export default function Home() {
     <div className="bg-gradient-to-t from-violet-900 to-[#34033d] min-h-screen flex flex-col items-center">
       
       {/* Marquee Banner Section */}
-      <div className="w-[60%]% rounded-md bg-neutral-600 opacity-50 py-2 overflow-hidden mt-8">
+      <div className="lg:w-[60%]%  w-full rounded-md bg-neutral-600 opacity-50 py-2 overflow-hidden mt-8">
         <div className="banner-content whitespace-nowrap animate-marquee">
           <span className="mx-4 text-xl text-black">🔥 Limited Time Offer - Get 50% Off on All Products! 🔥</span>
           <span className="mx-4 text-xl text-black">🎉 New Arrivals - Check Out Our Latest Collection! 🎉</span>
